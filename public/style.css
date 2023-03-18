@@ -145,7 +145,7 @@ body{
     background-clip: padding-box;
     text-align: center;
     align-items: center;
-    width: 15rem;
+    width: calc(var(--index) * 10);
 }
 hr{
     border: 1px solid rgb(137, 18, 18);
