@@ -30,7 +30,7 @@ router.post("/index.html", async (req,res) => {
         message: req.body.messageData
     });
 
-    await newNote.save();
+   // await newNote.save();
     res.redirect("/message");
     
     
