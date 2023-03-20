@@ -15,7 +15,7 @@ app.use(routes);
 
 async function startServer(){
     try{
-        await mongoose.connect("mongodb+srv://admin:1234@scrollsitedata.vtn3epm.mongodb.net/scrollSite1", {
+        await mongoose.connect("mongodb+srv://*****:****@scrollsitedata.vtn3epm.mongodb.net/scrollSite1", {
             useNewUrlParser: true,  
         });
         app.listen(PORT, ()=>{
